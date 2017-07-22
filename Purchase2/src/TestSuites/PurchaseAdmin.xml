@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+     <class name="purchase_Admin.LOTestingLabListTest"/>
+     <class name="purchase_Admin.LocationTest"/>
+     <class name="purchase_Admin.SetItemsMinMaxQtysTest"/>
+     <class name="purchase_Admin.UnitPackingsTest"/>  
+     <class name="purchase_Admin.PurchaseQuestionnaireTest"/> 
+     <class name="purchase_Admin.PurchaseSettingsTest"/>
+     <class name="purchase_Admin.Function_DepartmentTest"/>
+     <class name="purchase_Admin.ItemCategoryTest"/> 
+   <!--   <class name="purchase_Admin.CatalogueItemsTest"/> -->
+      
+     
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

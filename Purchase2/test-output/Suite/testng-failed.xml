@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="purchase_Admin.PurchaseQuestionnaireTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initialioseBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="DeleteAddedNewGrade"/>
+        </methods>
+      </class> <!-- purchase_Admin.PurchaseQuestionnaireTest -->
+      <class name="purchase_Admin.LOTestingLabListTest">
+        <methods>
+          <include name="DeleteLab"/>
+          <include name="SearchEditedLab"/>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="initialioseBrowser"/>
+          <include name="SearchAddedNewLab"/>
+          <include name="SearchDeletedLab"/>
+          <include name="EditLab"/>
+        </methods>
+      </class> <!-- purchase_Admin.LOTestingLabListTest -->
+      <class name="purchase_Admin.LocationTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="DeleteLocation"/>
+          <include name="initialioseBrowser"/>
+          <include name="SearchDeleteLocation"/>
+        </methods>
+      </class> <!-- purchase_Admin.LocationTest -->
+      <class name="purchase_Admin.ItemCategoryTest">
+        <methods>
+          <include name="ValidationforAddNewCategory"/>
+          <include name="DeleteCategory"/>
+          <include name="DuplicateAddNewCategory"/>
+          <include name="closeBrowser"/>
+          <include name="SearchAddNewCategory"/>
+          <include name="SearchDeleteCategory"/>
+          <include name="initialioseBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="EditAddNewCategory"/>
+          <include name="SearchEditAddNewCategory"/>
+        </methods>
+      </class> <!-- purchase_Admin.ItemCategoryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

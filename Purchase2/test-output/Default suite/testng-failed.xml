@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="purchase_Admin.CatalogueItemsTest">
+        <methods>
+          <include name="DuplicateJobs_Spare"/>
+          <include name="EditAddedSubCatalogue_Spare"/>
+          <include name="SearchEditedAddJobs_Spare"/>
+          <include name="EditSpareItem_Spare"/>
+          <include name="closeBrowser"/>
+          <include name="AddSpareItem_Spare"/>
+          <include name="RestoreCatalogue__Spare_IsService"/>
+          <include name="OverwriteCopyItems__Spare_IsService"/>
+          <include name="AppendCopyItems__Spare_IsService"/>
+          <include name="DuplicateForAddSubCatalogue_Spare"/>
+          <include name="DeleteSubCatalogue__Spare"/>
+          <include name="beforeSu"/>
+          <include name="initialioseBrowser"/>
+          <include name="OverwriteCopyItems__Spare"/>
+          <include name="EditAddCatalogue_Spare"/>
+          <include name="SearchEditedAddCatalogue_Spare"/>
+          <include name="SearchRestoredCatalogue__Spare_IsService"/>
+          <include name="afterMethod"/>
+          <include name="SearchDeletedStoresItem__Spare"/>
+          <include name="EditAddedJobs_Spare"/>
+          <include name="SearchRestoredStoresItem__Spare"/>
+          <include name="AppendCopyItems__Spare"/>
+          <include name="DeleteStoresItem__Spare"/>
+          <include name="SearchAddSubCatalogue_Spare"/>
+          <include name="EditSpareItem_Spare_IsService"/>
+          <include name="SearchFunction_Spare1"/>
+          <include name="ValidationForAddSubCatalogue_Spare"/>
+          <include name="SearchAddedSpareItem_Spare"/>
+          <include name="afterSu"/>
+          <include name="SearchRestoredCatalogue__Spare"/>
+          <include name="MoveItems__Spare_IsService"/>
+          <include name="SearchDeleteCatalogue__Spare_IsService"/>
+          <include name="SearchEditedAddSubCatalogue_Spare"/>
+          <include name="AddJobs_Spare"/>
+          <include name="SearchMoveItems__Spare_IsService"/>
+          <include name="DeleteStoresItem__Spare_IsService"/>
+          <include name="SearchDeleteCatalogue"/>
+          <include name="DuplicateAddCatalogue_Spare"/>
+          <include name="SearchAddedSpareItem_Spare_IsService"/>
+          <include name="RestoreStoresItem__Spare_IsService"/>
+          <include name="SearchOverwriteCopyJobs_Spare"/>
+          <include name="SearchEditSpareItem_Spare"/>
+          <include name="ValidationForAddCatalogue_Spare"/>
+          <include name="MoveItems__Spare"/>
+          <include name="DeleteCatalogue__Spare_IsService"/>
+          <include name="SearchEditSpareItem_Spare_IsService"/>
+          <include name="SearchMoveItems__Spare"/>
+          <include name="MoveJobs_Spare"/>
+          <include name="DuplicateAddSpareItem_Spare"/>
+          <include name="DuplicateAddSpareItem_Spare_IsService"/>
+          <include name="MoveJobs_Spare_IsService"/>
+          <include name="OverwriteCopyJobs_Spare"/>
+          <include name="AddSpareItem_Spare_IsService"/>
+          <include name="SearchAddJobs_Spare"/>
+          <include name="SearchAddCatalogue_Spare"/>
+          <include name="AppendCopyJobs__Spare"/>
+          <include name="DeleteSubCatalogue__Spare_IsService"/>
+          <include name="RestoreCatalogue__Spare"/>
+          <include name="RestoreStoresItem__Spare"/>
+          <include name="DeleteCatalogue__Spare"/>
+        </methods>
+      </class> <!-- purchase_Admin.CatalogueItemsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
